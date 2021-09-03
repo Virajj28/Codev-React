@@ -21,6 +21,9 @@ import UserRender from './components/UserRender';
 import RenderCount from './components/RenderCount';
 import CompC from './components/CompC';
 import { UserProvider } from './components/ContextUser';
+import AxiosPosts from './components/AxiosPosts';
+import HookCounter from './components/HookCounter';
+import StateHookobj from './components/StateHookobj';
 
 function App() {
   return (
@@ -52,10 +55,16 @@ function App() {
             )} 
       </RenderCount> */}
 
-      <UserProvider value="Nerve">
+      {/* <UserProvider value="Nerve">
         <CompC />
-      </UserProvider>
+      </UserProvider> */}
       
+      {/* <AxiosPosts/> */}
+
+      {/* <HookCounter/> */}
+
+      {/* <StateHookobj/> */}
+
     </div>
   );
 }
